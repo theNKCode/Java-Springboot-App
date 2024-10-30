@@ -1,5 +1,8 @@
 package com.thenkcode.joblisting.model;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Arrays;
+@Document(collection = "Jobs")
 public class Post {
     private String profile;
     private String desc;
