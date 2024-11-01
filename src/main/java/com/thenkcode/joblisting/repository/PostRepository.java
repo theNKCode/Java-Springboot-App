@@ -1,4 +1,4 @@
-package com.thenkcode.joblisting;
+package com.thenkcode.joblisting.repository;
 
 import com.thenkcode.joblisting.model.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
